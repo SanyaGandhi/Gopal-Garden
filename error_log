@@ -1,0 +1,30 @@
+[30-Jun-2018 18:47:50 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/sgdinfotech/public_html/gopalsgarden.com/deleteme.wph7ql.php on line 16
+[30-Jun-2018 18:47:50 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/sgdinfotech/public_html/gopalsgarden.com/deleteme.wpywch.php on line 16
+[30-Jun-2018 18:47:50 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/sgdinfotech/public_html/gopalsgarden.com/deleteme.wpwdpr.php on line 16
+[30-Jun-2018 18:47:51 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/sgdinfotech/public_html/gopalsgarden.com/deleteme.wpwmr8.php on line 16
+[14-Jul-2018 12:33:18 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/sgdinfotech/public_html/gopalsgarden.com/deleteme.wpas4p.php on line 16
+[14-Jul-2018 12:33:18 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/sgdinfotech/public_html/gopalsgarden.com/deleteme.wpshdg.php on line 16
+[14-Jul-2018 12:33:18 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/sgdinfotech/public_html/gopalsgarden.com/deleteme.wpbkgx.php on line 16
+[14-Jul-2018 12:33:24 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/sgdinfotech/public_html/gopalsgarden.com/deleteme.wpu0bo.php on line 16
+[14-Jul-2018 12:33:24 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/sgdinfotech/public_html/gopalsgarden.com/deleteme.wpvoux.php on line 16
+[14-Jul-2018 12:33:24 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/sgdinfotech/public_html/gopalsgarden.com/deleteme.wpybca.php on line 16
+[14-Jul-2018 12:33:31 UTC] PHP Fatal error:  Call to undefined function __() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-admin/includes/file.php on line 16
+[14-Jul-2018 12:33:32 UTC] PHP Fatal error:  Call to undefined function __() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-admin/includes/file.php on line 16
+[14-Jul-2018 12:33:32 UTC] PHP Fatal error:  Call to undefined function __() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-admin/includes/file.php on line 16
+[14-Jul-2018 18:09:57 UTC] PHP Fatal error:  Call to undefined function __() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-admin/includes/file.php on line 16
+[14-Jul-2018 18:09:57 UTC] PHP Fatal error:  Call to undefined function __() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-admin/includes/file.php on line 16
+[14-Jul-2018 18:09:57 UTC] PHP Fatal error:  Call to undefined function __() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-admin/includes/file.php on line 16
+[14-Jul-2018 18:09:57 UTC] PHP Fatal error:  Call to undefined function __() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-admin/includes/file.php on line 16
+[14-Jul-2018 19:27:10 UTC] PHP Fatal error:  Call to undefined function __() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-admin/includes/file.php on line 16
+[14-Jul-2018 19:27:10 UTC] PHP Fatal error:  Call to undefined function __() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-admin/includes/file.php on line 16
+[14-Jul-2018 19:27:10 UTC] PHP Fatal error:  Call to undefined function __() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-admin/includes/file.php on line 16
+[14-Jul-2018 19:27:10 UTC] PHP Fatal error:  Call to undefined function __() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-admin/includes/file.php on line 16
+[08-Jun-2019 02:38:43 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/sgdinfotech/public_html/gopalsgarden.com/wp-settings.php on line 19
+[08-Jun-2019 02:38:43 UTC] PHP Warning:  require(ABSPATHwp-includes/load.php): failed to open stream: No such file or directory in /home/sgdinfotech/public_html/gopalsgarden.com/wp-settings.php on line 19
+[08-Jun-2019 02:38:43 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sgdinfotech/public_html/gopalsgarden.com/wp-settings.php on line 19
+[08-Jun-2019 02:41:00 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/sgdinfotech/public_html/gopalsgarden.com/wp-settings.php on line 19
+[08-Jun-2019 02:41:00 UTC] PHP Warning:  require(ABSPATHwp-includes/load.php): failed to open stream: No such file or directory in /home/sgdinfotech/public_html/gopalsgarden.com/wp-settings.php on line 19
+[08-Jun-2019 02:41:00 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sgdinfotech/public_html/gopalsgarden.com/wp-settings.php on line 19
+[08-Jun-2019 12:40:54 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/sgdinfotech/public_html/gopalsgarden.com/wp-settings.php on line 19
+[08-Jun-2019 12:40:54 UTC] PHP Warning:  require(ABSPATHwp-includes/load.php): failed to open stream: No such file or directory in /home/sgdinfotech/public_html/gopalsgarden.com/wp-settings.php on line 19
+[08-Jun-2019 12:40:54 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/sgdinfotech/public_html/gopalsgarden.com/wp-settings.php on line 19

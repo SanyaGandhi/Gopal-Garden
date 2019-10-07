@@ -1,0 +1,94 @@
+
+/* Carousel and the buttons just below it  */
+@media screen and (max-width: 1110px){
+  #bt {
+    left: 30%;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #bt {
+    left: 0%;
+  }
+  #bt {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/* Footer */
+@media screen and (max-width: 1130px){
+  .ssc {
+    box-shadow: 0px 0px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 1093px){
+  .pull-left{
+    padding-left: 5%;
+  }
+}
+
+@media screen and (min-width: 767px){
+  #footer {
+    max-width: 100%;
+  }
+  /* Navbar fix */
+ .fixcenter{
+   text-align: center;
+   display: flex;
+   justify-content: space-around;
+ }
+}
+
+@media screen and (max-width: 767px){
+  .pull-left {
+    padding-left: 5%;
+  }
+  #footer {
+    max-width: 100%;
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 676px){
+  .ssc {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .ssc img {
+    margin-right: 45%;
+  }
+  .pull-left {
+    padding-left: 0%;
+  }
+  #cprt{
+    margin-top: 10%;
+  }
+}
+
+/* Hindi Divas css: */
+#writeup_link > a:hover {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bolder;
+}
+#writeup_link {
+  padding: 1em;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+}
+
+/* ^ */ 

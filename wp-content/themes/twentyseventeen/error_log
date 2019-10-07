@@ -1,0 +1,12 @@
+[16-Oct-2018 00:50:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/sgdinfotech/public_html/gopalsgarden.com/wp-content/themes/twentyseventeen/404.php on line 13
+[18-Oct-2018 10:48:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/sgdinfotech/public_html/gopalsgarden.com/wp-content/themes/twentyseventeen/404.php on line 13
+[22-Oct-2018 18:48:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/sgdinfotech/public_html/gopalsgarden.com/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/sgdinfotech/public_html/gopalsgarden.com/wp-content/themes/twentyseventeen/footer.php on line 22

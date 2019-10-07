@@ -1,0 +1,301 @@
+<!--
+Designed by the TCET team
+Varun Mishra, Nilesh Gupta, Anshul Dalmia and Abhijit Kushwaha
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Gopal's Garden High School</title>
+    <link href="bs/css/bootstrap.min.css" rel="stylesheet">
+     <link href="ni.css" rel="stylesheet">
+<style type="text/css">body, .collapse, .navbar-collapse{
+    text-align: justify;font-size: 15px;font-family: BELL;background-color: #fff;
+    max-width: 100%;z-index: 2;color: black;margin-left:2%;
+  }
+  a, .btn-lg{
+    font-size: 14px;color: black;
+  }
+  .btn-success{
+    width: 99%;
+    background-color: #00963F;
+  }
+  .logo{
+    position: relative;left: -15px;top: 5px;
+  }
+  .container-fluid{
+    max-width: 100%;box-sizing: border-box;
+  }
+  .collapse{
+    position: absolute;right: 0px;left: 0px;
+  }
+  #cl{
+    color: white;background-color: white;font-size: 74px;
+    position: absolute;left: 125px;top: 120px;z-index: 8150;
+  }
+  .cimg{
+    border-right: solid 2px;
+    font-size: 22px;
+  }
+  #bt{
+    position: relative;left: 63%;top: -50px;
+  }
+  .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+  .carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;-moz-transition-property: opacity;
+  -o-transition-property: opacity;transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;opacity: 0;z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-control {
+  z-index: 20000;
+  opacity: 0.7;
+
+}
+.img-responsive{
+  height: 330px;width: auto;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 600px)">
+
+<link href="carfoofix.css"  type="text/css" rel="stylesheet">
+
+  </head>
+  <body><p id="cl">`</p>
+    <div class="container-fluid" style="max-width: 100%;">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="">
+              <img id="logo" style="height:120px;width:auto;" class="logo" src="images/logo.jpeg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="nav1">
+              <ul class="nav nav-tabs"><br>
+                <li id="bcd" style="color:#00963F;font-size:50px;position: relative;top: 16px;left: -42px"> &nbsp;&nbsp;<b id="b">Gopal's Garden High School </b> <span id="bc" style="font-size: 21px"> - CBSE AFFILIATED &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+              </ul>
+            </div>
+          </div>
+        </div></div>
+        <div class="row">
+          <div class="col-md-12">
+          <div class="navbar navbar-default navbar-fixed-top">
+  <div class="container" style="max-width: 100%;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" style="border-bottom: 3px solid #00963F;font-weight: bold;">
+      <ul class="nav navbar-nav fixcenter" style="width: 100%;">
+        <li> <a href="index.html">Home </a> </li>
+        <li class="dropdown">
+      <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
+       <ul id="io" class="dropdown-menu">
+        <li><a href="about/about.html">About Us</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="about/mission.html">Mission</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="about/inspiration.html">Our Inspiration</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="about/trustee.html">Our Trustees</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="about/principal.html">Principal</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown forListInList">
+      <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Infrastructure<b class="caret"></b></a>
+       <ul class="dropdown-menu" style="width: 300px;">
+            <li><a href="infrastructure/musicroom.html">Music Room</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="infrastructure/library.html">Library</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="infrastructure/artcraft.html">Art and Craft</a></li><li class="nav-divider"></li>
+            <li class="dropdown ddMobHandler"><a href="#" id="ddLink">Labs<b class="caret"></b></a>
+              <ul class="dropdown-menu pull-right" id="#ddOfMobHandler">
+               <li><a href="../infrastructure/labs.html">Labs - overall</a></li><li class="nav-divider"></li>
+               <li><a href="../infrastructure/sciencelab.html">Science Labs</a></li><li class="nav-divider"></li>
+               <li><a href="../infrastructure/computerlab.html">Computer Labs</a></li><li class="nav-divider"></li>
+               <li><a href="../infrastructure/mathlab.html">Math Lab</a></li>
+               </ul>
+            </li><li class="nav-divider"></li>
+            <li><a href="infrastructure/infirmary.html">Infirmary</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="infrastructure/technology.html">Technology</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="infrastructure/seminar-hall.html">Seminar Hall</a>
+            </li>
+
+          </ul>
+        </li>
+       <li class="dropdown">
+      <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Academics<b class="caret"></b></a>
+       <ul class="dropdown-menu">
+            <li><a href="academics/curriculum.html">Curriculum</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="academics/exam.html">Examination</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="academics/results.html">Results</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="academics/awards.html">Awards &amp; Achievements</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Extra Curricular<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="extra-curricular/indoor-games.html">Indoor Games</a></li><li class="nav-divider"></li>
+            <li><a href="extra-curricular/outdoor-games.html">Outdoor Games</a></li><li class="nav-divider"></li>
+            <li><a href="extra-curricular/other-activities.html">Other Activities</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+      <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Student Life<b class="caret"></b></a>
+     <ul class="dropdown-menu">
+            <li><a href="student-life/life-skills-program.html">Life Skills Program</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="student-life/workshops.html">Workshops</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="student-life/competitions.html">Competitions</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="student-life/picnics.html">Picnics and Field Trips</a>
+            </li>
+           </ul>
+        </li>
+        <li><a href="admission.html">Admissions</a></li>
+        <li><a href="#">Safety &amp; Security</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</div>        </div>
+        </div><br>
+      </div>
+
+      <div style="width:94%;margin-top:0px;margin: auto;position: relative;left: 1.7%">
+          <div id="Carousel" data-ride="carousel" data-ride="carousel" class="carousel slide carousel-fade" data-interval="4500">
+        <ol class="carousel-indicators">
+            <li data-target="Carousel" data-slide-to="0" class="active"></li>
+            <li data-target="Carousel" data-slide-to="1"></li>
+            <li data-target="Carousel" data-slide-to="2"></li>
+            <li data-target="Carousel" data-slide-to="3"></li>
+            <li data-target="Carousel" data-slide-to="4"></li>
+            <li data-target="Carousel" data-slide-to="5"></li>
+            <li data-target="Carousel" data-slide-to="6"></li>
+            <li data-target="Carousel" data-slide-to="7"></li>
+            <li data-target="Carousel" data-slide-to="8"></li>
+            <li data-target="Carousel" data-slide-to="9"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/seva/seva (1).jpg" class="img-responsive">
+            </div>
+           <div class="item">
+             <img src="images/seva/seva (2).jpg" class="img-responsive">
+            </div>
+           <div class="item">
+             <img src="images/seva/seva (3).jpg" class="img-responsive">
+           </div>
+           <div class="item">
+             <img src="images/seva/seva (4).jpg" class="img-responsive">
+           </div>
+           <div class="item">
+             <img src="images/seva/seva (5).jpg" class="img-responsive">
+           </div>
+           <div class="item">
+             <img src="images/seva/seva (6).jpg" class="img-responsive">
+           </div>
+           <div class="item">
+             <img src="images/seva/seva (7).jpg" class="img-responsive">
+           </div>
+           <div class="item">
+             <img src="images/seva/seva (8).jpg" class="img-responsive">
+           </div>
+           <div class="item">
+             <img src="images/seva/seva (9).jpg" class="img-responsive">
+           </div>
+        </div>
+        <a style="height: 50px;position: relative;top: -200px;left: 10px;" class="left carousel-control" href="#Carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a style="height: 50px;position: relative;top: -200px;left: 100%;" class="right carousel-control" href="#Carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a></div>
+      </div><br>
+
+
+      <div class="row">
+        <div class="col-sm-offset-1 col-sm-10">
+          <span style="font-weight: bold;font-size: 30px;"><u>Pandharpur Seva Yatra</u></span>
+            <br>
+
+              Ashadi Ekadashi and Pandharpur Dham go hand in hand. This big annual event in  this divine Dham of simplicity offers ample oppurtunities to serve the devotees and humanity.<br>
+              Bhaktivedanta Hospital of Miraroad has been organizing a medical camp for the Warkaris who visit Pandharpur during this time since many years. This year, Gopal’s Garden High School students were given the unique opportunity to participate in serving the devotees.<br>
+              Twenty-three students from classes VIII and Classes X volunteered to join the camp (22nd July to 24th July). Our students participated in various sevas like:Registration work, Ushering the Warkarais to the right Pharmacy Counters, Patient Queue Management, Food for the soul- Literature Distribution , Prasadam packing and distribution and Kirtan seva. The Literature distribution team distributed 20 books in few hours of seva on two days.<br>
+              The students were prompt and punctual enough to be present in their deputed positions for the seva and readily performed every task given to them with dedication and happiness. The students’ enthusiasm in giving themselves fully to the cause of seva drew praises from the Director of Bhaktivedanta Hospital Dr. Sankhe and other senior doctors like Dr. Rathod and Dr. Shanbhag of the medical camp and we are grateful to the Bhaktivedanta Hospital team for giving us this opportunity and guiding us so wonderfully.<br>
+              The children were amply rewarded by the Lord with his ‘MUKH DARSHAN’ on the Dwadashi day, CHANDRABHAGA NADI SNAN and an opportunity to meet H G LOKNATH SWAMI MAHARAJ and receive gifts from his holy hands.
+              <br>
+              Our Mission Statement being :
+              Living with Excellence and Giving with BenevolenceSuch initiatives like this Seva Yatra at Pandharpur stands true to our Mission Statement and we wish to encourage such trips to inculcate service attitude in our children.
+              In such yatras, as we train our children to part take in community service, the focus is not on taking service from Vithal Dev but in serving the community and devotees of Vithal Dev.
+              Hence this austere yatra (as compared to Mumbai standards) teaches our children to look at service as their focal point disregarding their comforts and discomforts.
+
+
+        </div>
+      </div>
+
+      <div class="col-sm-12" id="footer">
+        <div class="ssc" style="background-color: #00963F">
+          <p class="pull-left" style="background-color: #00963F">
+          <!--<a class="alert" href="../faq.html">FAQ's</a>-->&nbsp;&nbsp;&nbsp;
+          <a class="alert" href="news.html">News and events</a>
+          <a class="alert" href="planner.html">Planner</a>
+          <a class="alert" href="house.html">The House System</a>
+          <a class="alert" href="seva.html">Seva</a>
+          <a class="alert" href="gardenbuzz.html">Garden Buzz</a> </p>
+          <a href="https://www.facebook.com/public/?query=Gopals%20Garden"><img height="30" src="images/logo.png"></a>
+          </div><br><br><br><div id="cprt">Copyright&copy; <span id="date"></span> Gopal's Garden High School (All rights reserved)</div></div></div>
+<script>var d = new Date();
+    var n = d.getFullYear();
+    document.getElementById("date").innerHTML = n;</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bs/js/bootstrap.min.js"></script>
+    <script src="bs/js/ddhover.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#fu").css({"width":"100%","height":"270px"});
+
+                // DD FIX:
+                if($(window).width()<1250){ // For all devices less than the defined width of a laptop.
+                  $('.forListInList').on('click',function(){
+                        $('.ddMobHandler').addClass('open');
+                  });
+                }
+      });
+    </script>
+</body>
+</html>
