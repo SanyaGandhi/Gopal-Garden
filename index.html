@@ -11,13 +11,47 @@ Simran Mehta, Aditya Nambiar, Nandan Maurya
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Gopal's Garden High School</title>
-    <link href="bs/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
-     <link href="ni.css" rel="stylesheet">
-<style type="text/css">
-  body, .collapse, .navbar-collapse{
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="bs/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" type="text/css">
+    <link href="css/ni.css" rel="stylesheet" type="text/css">
+    <style>body, .collapse, .navbar-collapse{
     text-align: justify;font-size: 15px;font-family: BELL;background-color: #fff;
-    max-width: 100%;z-index: 2;color: black;margin-left: 2%;
+    max-width: 100%;z-index: 2;color: black;margin-left:2%;
+  }
+  .div-decorator
+    {
+        border-top:3px solid #428BCA;
+        border-right:3px solid #D9534F;
+        border-bottom:3px solid #5CB85C;
+        border-left:3px solid #F0AD4E;
+        margin:30px;
+        border-radius:20px;
+    }
+    .div-content
+    {
+        padding:30px
+    }
+    .div-content
+    {
+        padding:30px
+    }
+  @media screen and (max-width: 500px) {
+    .logo{
+      height: 20%;
+      width: 71%;
+    }
+    h1 #head{
+      font-family: BELL;
+      font-size: 2em;
+    }
+    .head2{
+      height:100%;
+      width: 100%;
+    }
   }
   a, .btn-lg{
     font-size: 14px;color: black;
@@ -26,23 +60,20 @@ Simran Mehta, Aditya Nambiar, Nandan Maurya
     width: 99%;
     background-color: #00963F;
   }
-  .logo{
-    position: relative;left: -15px;top: 5px;
-  }
-  .container-fluid{
-    max-width: 100%;box-sizing: border-box;
-  }
+ 
+ 
   .collapse{
-    position: absolute;right: 0px;left: 0px;
+    position: absolute;right: 0px; left: 0px;
   }
-  #cl{
+  /* #cl{
     color: white;background-color: white;font-size: 74px;
-    position: absolute;left: 125px;top: 130px;z-index: 8150;
-  }
+    position: absolute;left: 125px;top: 120px;z-index: 8150;
+  } */
   .cimg{
     border-right: solid 2px;
     font-size: 22px;
   }
+  
   #bt{
     position: relative;left: 63%;top: -50px;
   }
@@ -52,18 +83,15 @@ Simran Mehta, Aditya Nambiar, Nandan Maurya
   -webkit-transition-property: opacity;-moz-transition-property: opacity;
   -o-transition-property: opacity;transition-property: opacity;
 }
-.carousel-fade .carousel-inner .active {
+.carousel .carousel-inner .active {
   opacity: 1;
 }
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;opacity: 0;z-index: 1;
-}
+
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 0;
 }
-.carousel-fade .carosel-control {
+.carousel-fade .carousel-control {
   z-index: 20000;
   opacity: 0.7;
 
@@ -71,215 +99,214 @@ Simran Mehta, Aditya Nambiar, Nandan Maurya
 .img-responsive{
   height: 330px;
 }
-.tagLine {
-  font-weight: bold;
-  display: block;
-  text-align: center;
-  background: linear-gradient(to bottom, rgba(201,222,150,1) 0%,rgba(138,182,107,1) 63%,rgba(57,130,53,1) 100%);
-  font-family: 'Nanum Gothic', sans-serif;
-  height: auto;
-  margin-top: 7%;
-  margin-bottom: 5%;
-  padding: 2em;
-  transition: box-shadow 0.5s;
-  border: 1px solid rgba(201,222,150,1);
-  box-shadow:
-    0 0 0 0 transparent,
-    0px 0px 0px 0px rgba(201,222,150,1),
-    0px 0px 0px 0px rgba(201,222,150,1),
-    0px 0px 0px 0px rgba(201,222,150,1);
-}
-.encloseAnchor{
-  vertical-align: middle;
-}
-.encloseAnchor > a{
-  text-align: center;
-  text-decoration: none;
-  font-size: 3.7rem;
-}
-  .tagLine:hover{
-    box-shadow:
-      0 0 0 0 transparent,
-      1px 1px 1px 1px rgba(57,130,53,1),
-      1px 1px 1px 1px rgba(57,130,53,1),
-      -1px 1px 1px 1px rgba(57,130,53,1);
-  }
-  .photo_gal_item{
-    width: 100%;
-    height: 100%;
-  }
-  @media screen (max-width: 1000px){
-    width: 388px;
-    height: 218px;
-  }
-  *{
-    border-bottom: 0px;border-top: 0px;
-  }
-  </style>
-  <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 600px)">
 
-  <link href="carfoofix.css"  type="text/css" rel="stylesheet">
+</style>
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width: 600px)">
 
-    </head>
-    <body><p id="cl">`</p>
-      <div class="container-fluid" style="max-width: 100%;">
-      <div class="row">
-        <div class="col-md-2">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="">
-                <img id="logo" style="height:120px;width:auto;" class="logo" src="images/logo.jpeg">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-10">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="nav1">
-                <ul class="nav nav-tabs"><br>
-                  <li id="bcd" style="color:#00963F;font-size:50px;position: relative;top: 16px;left: -42px"> &nbsp;&nbsp;<b id="b">Gopal's Garden High School </b> <span id="bc" style="font-size: 21px"> - CBSE AFFILIATED &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
-                </ul>
-              </div>
-            </div>
-          </div></div>
-          <div class="row">
-            <div class="col-md-12">
-            <div  class="navbar navbar-default navbar-fixed-top">
-    <div class="container" style="max-width: 100%;">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+    <link href="css/carfoofix.css"  type="text/css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- <div class="row container-fluid" style="max-block-size: 100%">
+      <div class="col-sm-1 col-xs-1 col-md-1">
+          <img id="logo"  class="logo" src="../images/logo.jpeg">
       </div>
-<div class="collapse navbar-collapse" style="border-bottom: 3px solid #00963F;font-weight: bold;">
-      <ul class="nav navbar-nav fixcenter" style="width: 100%;">
+    </div> -->
+    <!-- <p id="cl">`</p> -->
+    <div class="container-fluid" style="max-width: 100%;">
+      <div class="row">
+            <div class="col-xs-10 col-xs-offset-2 col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0">
+            
+                <img id="logo" style="height: 20%; width: 55%" class="logo" src="images/logo.jpeg">
+              
+            </div>
+        
+        <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-md-8 col-lg-offset-0 col-md-3 col-md-offset-0" style="padding-top: 2%;">
+          <h1 id="head" style="text-align: center; color:#00963F; font-size: 380%" ><b>Gopal's Garden High School<b></b></h1>
+          <h3 id="head2" style="text-align: center; color:#00963F;font-size: 200%"> CBSE AFFILIATED</h3>
+          </div>
+      </div>
+  </div>
+   
+        
+  <div  class="navbar navbar-default navbar-fixed-top">
+ 
+    <div class="navbar-header ">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" style="border-bottom: 6% solid #00963F;font-weight: bold;margin-left: 0%; align-content: center; align-items: center; align-self: center;text-align: center" >
+      <ul class="nav navbar-nav" style="width: 100%; align-self: center; text-align: center">
         <li> <a href="home.html">Home </a> </li>
         <li class="dropdown">
       <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
-       <ul id="io" class="dropdown-menu">
-        <li><a href="about/about.html">About Us</a>
+       <ul id="io" class="dropdown-menu" style="background-color: #fff">
+        <li><a href="#">About Us</a>
             </li><li class="nav-divider"></li>
-            <li><a href="about/mission.html">Mission</a>
+            <li><a href="#">Chairman Message</a>
             </li><li class="nav-divider"></li>
-            <li><a href="about/inspiration.html">Our Inspiration</a>
+            <li><a href="#">Mission</a>
             </li><li class="nav-divider"></li>
-            <li><a href="about/trustee.html">Our Trustees</a>
+            <li><a href="#">Our Inspiration</a>
             </li><li class="nav-divider"></li>
-            <li><a href="about/principal.html">Principal</a>
+            <li><a href="#">Our Trustees</a>
             </li><li class="nav-divider"></li>
-            <li class="dropdown ddMobHandler"><a href="#" id="ddLink">Committee<b class="caret"></b></a>
-                <ul class="dropdown-menu pull-right" id="#ddOfMobHandler">
+            <li class="dropdown ddMobHandler"><a href="#" id="ddLink">Our Committees<b class="caret"></b></a>
+                <ul class="dropdown-menu pull-right" id="#ddOfMobHandler" style="background-color: #fff">
                  <li><a href="about/committees/pg 1.jpg">School Management Committee</a></li><li class="nav-divider"></li>
-                 <li><a href="about/committees/pg 2.jpg">Student Council</a></li><li class="nav-divider"></li>
-                 <li><a href="about/committees/pg 3.jpg">Transport Committee</a></li></li><li class="nav-divider"></li>
-                 <li><a href="about/committees/pg 4.jpg">Child Protection Committee</a></li></li><li class="nav-divider"></li>
-                 <li><a href="about/committees/pg 5.jpg">Anti Bullying Committee</a></li></li><li class="nav-divider"></li>
-                 <li><a href="about/committees/pg 6.jpg">Executive Committee of PTA</a></li></li><li class="nav-divider"></li>
-                 <li><a href="about/committees/pg 7.jpg">Grievance Committee</a></li></li><li class="nav-divider"></li>
-                 <li><a href="about/committees/pg 8.jpg">Prevention of Sexual Harrasment Committee</a></li>
+                 <li><a href="../about/committees/pg 2.jpg">Student Council</a></li><li class="nav-divider"></li>
+                 <li><a href="../about/committees/pg 3.jpg">Transport Committee</a></li></li><li class="nav-divider"></li>
+                 <li><a href="../about/committees/pg 4.jpg">Child Protection Committee</a></li></li><li class="nav-divider"></li>
+                 <li><a href="../about/committees/pg 5.jpg">Anti Bullying Committee</a></li></li><li class="nav-divider"></li>
+                 <li><a href="../about/committees/pg 6.jpg">Executive Committee of PTA</a></li></li><li class="nav-divider"></li>
+                 <li><a href="../about/committees/pg 7.jpg">Grievance Committee</a></li></li><li class="nav-divider"></li>
+                 <li><a href="../about/committees/pg 8.jpg">Prevention of Sexual Harrasment Committee</a></li>
                  </ul>
-            </li><li class="nav-divider"></li>
+                </li><li class="nav-divider"></li>
             <li><a href="list.pdf">List of Staff</a>
             </li>
           </ul>
         </li>
         <li class="dropdown forListInList">
-      <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Infrastructure<b class="caret"></b></a>
-       <ul class="dropdown-menu" style="width: 300px;">
-            <li><a href="infrastructure/musicroom.html">Music Room</a>
+      <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Academics<b class="caret"></b></a>
+       <ul class="dropdown-menu" style="width: 300px; background-color: #fff">
+            <li><a href="academics/infra.html">Infrastructure</a></li>
+            <li class="nav-divider"></li>
+            <li><a href="academics/pp.html">PP Infrastructure</a>
+            <li class="nav-divider"></li>
+           
+            <li><a href="#">Curricular Activities</a>
             </li><li class="nav-divider"></li>
-            <li><a href="infrastructure/library.html">Library</a>
-            </li><li class="nav-divider"></li>
-            <li><a href="infrastructure/artcraft.html">Art and Craft</a></li><li class="nav-divider"></li>
-            <li class="dropdown ddMobHandler"><a href="#" id="ddLink">Labs<b class="caret"></b></a>
-              <ul class="dropdown-menu pull-right" id="#ddOfMobHandler">
-               <li><a href="../infrastructure/labs.html">Labs - overall</a></li><li class="nav-divider"></li>
-               <li><a href="../infrastructure/sciencelab.html">Science Labs</a></li><li class="nav-divider"></li>
-               <li><a href="../infrastructure/computerlab.html">Computer Labs</a></li><li class="nav-divider"></li>
-               <li><a href="../infrastructure/mathlab.html">Math Lab</a></li>
+           
+            <li class="dropdown ddMobHandler"><a href="#" id="ddLink">Co-Curricular Activities<b class="caret"></b></a>
+              <ul class="dropdown-menu pull-right" id="#ddOfMobHandler" style="background-color: #fff">
+               <li><a href="academics/co-curricular/labs.html">Labs</a></li><li class="nav-divider"></li>
+               <li><a href="academics/co-curricular/music.html">Music</a></li><li class="nav-divider"></li>
+               <li><a href="academics/co-curricular/art.html">Art</a></li><li class="nav-divider"></li>
+               <li><a href="academics/co-curricular/games.html">Games[Indoor/Outdoor]</a></li><li class="nav-divider"></li>
+               <li><a href="academics/co-curricular/computer.html">Computer</a></li><li class="nav-divider"></li>
+               <li><a href="academics/co-curricular/mind.html">Mind Spark</a></li>
                </ul>
             </li><li class="nav-divider"></li>
-            <li><a href="infrastructure/infirmary.html">Infirmary</a>
+            <li><a href="academics/extra.html">Extra Curricular Activities</a>
+              
             </li><li class="nav-divider"></li>
-            <li><a href="infrastructure/technology.html">Technology</a>
-            </li><li class="nav-divider"></li>
-            <li><a href="infrastructure/seminar-hall.html">Seminar Hall</a>
-            </li>
+            <li><a href="academics/results.html">Results</a>
+              </li>
 
           </ul>
         </li>
        <li class="dropdown">
-      <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Academics<b class="caret"></b></a>
-       <ul class="dropdown-menu">
-            <li><a href="academics/curriculum.html">Curriculum</a>
+      <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Events and Celebrations<b class="caret"></b></a>
+       <ul class="dropdown-menu" style="background-color: #fff">
+            <li><a href="events/garden.html">Garden Mellows</a>
             </li><li class="nav-divider"></li>
-            <li><a href="academics/exam.html">Examination</a>
+            <li><a href="events/sports.html">Sports day</a>
             </li><li class="nav-divider"></li>
-            <li><a href="academics/results.html">Results</a>
+            <li><a href="events/diwas.html">Diwas[Sanskrit, Hindi, Marathi]</a>
             </li><li class="nav-divider"></li>
-            <li><a href="academics/awards.html">Awards &amp; Achievements</a>
+            <li><a href="events/testimonial.html">Students Testimonials</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="events/nationalfest.html">National Festival</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="events/otherfest.html">Other Festivals</a>
+            </li><li class="nav-divider"></li>
+            <li><a href="events/pp.html">PP Celebrations</a>
             </li>
           </ul>
         </li>
 
-        <li> <a href="photo_gallery/index.html">Photo Gallery</a> </li>
         <li class="dropdown">
-          <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Extra Curricular<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="extra-curricular/indoor-games.html">Indoor Games</a></li><li class="nav-divider"></li>
-            <li><a href="extra-curricular/outdoor-games.html">Outdoor Games</a></li><li class="nav-divider"></li>
-            <li><a href="extra-curricular/other-activities.html">Other Activities</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-      <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Student Life<b class="caret"></b></a>
-     <ul class="dropdown-menu">
-            <li><a href="student-life/life-skills-program.html">Life Skills Program</a>
+      <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Talent Corner<b class="caret"></b></a>
+     <ul class="dropdown-menu" style="background-color: #fff">
+            <li><a href="../student-life/life-skills-program.html">Competition</a>
             </li><li class="nav-divider"></li>
-            <li><a href="student-life/workshops.html">Workshops</a>
+            <li><a href="../student-life/workshops.html">Achievements</a>
             </li><li class="nav-divider"></li>
-            <li><a href="student-life/competitions.html">Competitions</a>
+            <li><a href="../student-life/competitions.html">Competitions</a>
             </li><li class="nav-divider"></li>
-            <li><a href="student-life/picnics.html">Picnics and Field Trips</a>
+            <li><a href="../student-life/picnics.html">Awards</a>
             </li>
            </ul>
+           </li>
+           <li class="dropdown">  
+      <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Empowerment<b class="caret"></b></a>
+           <ul class="dropdown-menu" style="background-color: #fff">
+                  <li><a href="../student-life/life-skills-program.html">Workshops for teachers</a>
+                  </li><li class="nav-divider"></li>
+                  <li><a href="../student-life/workshops.html">Workshops for students</a>
+                  </li>
+                 </ul>
+              </li>
+    <li class="dropdown">
+    <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Careers at GGHS/Openings<b class="caret"></b></a>
+    <ul class="dropdown-menu" style="background-color: #fff">
+      <li><a href="../student-life/life-skills-program.html">Submit resume online</a>
+      </li><li class="nav-divider"></li>
+      <li><a href="../student-life/workshops.html">Basic data collection</a>
+      </li>
+    </ul>   
+    </li>
+    <li class="dropdown">
+    <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Testimonials<b class="caret"></b></a>
+    <ul class="dropdown-menu" style="background-color: #fff">
+      <li><a href="../student-life/life-skills-program.html">Ex Parents</a>
+      </li><li class="nav-divider"></li>
+      <li><a href="../student-life/workshops.html">Ex students</a>
+      </li>
+    </ul>   
+    </li>
+    <li class="dropdown">
+    <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Admissions<b class="caret"></b></a>
+    <ul class="dropdown-menu" style="background-color: #fff">
+      <li><a href="../student-life/life-skills-program.html">Inquiry</a>
+      </li><li class="nav-divider"></li>
+      <li><a href="../student-life/life-skills-program.html">Procedure</a>
+      </li><li class="nav-divider"></li>
+      <li><a href="../student-life/workshops.html">Prospects</a>
+      </li>
+    </ul>   
+    </li>
+  <li class="dropdown">
+    <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown"><li><a href="#">Contact Us</a>
+    </li><li class="nav-divider"></li><a>
+    <ul class="dropdown-menu" style="background-color: #fff">
+      <li><a href="../student-life/life-skills-program.html">Address</a>
+      </li><li class="nav-divider"></li>
+      <li><a href="../student-life/workshops.html">Email address</a>
+      </li><li class="nav-divider"></li>
+      <li><a href="../student-life/workshops.html">Phone numbers</a>
+      </li><li class="nav-divider"></li>
+      <li><a href="../student-life/workshops.html">Map/location</a>  
+      </li>
+    </ul>   
+  </li>
+  
+    <li class="dropdown">
+        <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Garden Buzz<b class="caret"></b></a>
+        <ul class="dropdown-menu" style="background-color: #fff">
+          <li><a href="../student-life/life-skills-program.html">School Magazine</a>
+          </li>
+        </ul>   
         </li>
-        <li><a href="admission.html">Admissions</a></li>
-        <li class="dropdown">
-          <a href="#" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Transfer details<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="lcs/Anjali Rai.pdf">Anjali Rai</a></li><li class="nav-divider"></li>
-            <li><a href="lcs/Govind Chudasama.pdf">Govind Chudasama</a></li><li class="nav-divider"></li>
-            <li><a href="lcs/Kartik Parmar.pdf">Kartik Parmar</a></li><li class="nav-divider"></li>
-            <li><a href="lcs/Maithili Shirwadkar.pdf">Maithili Shirwadkar</a></li><li class="nav-divider"></li>
-            <li><a href="lcs/Namashree Shah.pdf">Namashree Shah</a></li><li class="nav-divider"></li>
-            <li><a href="lcs/OM Italta.pdf">OM Italta</a></li><li class="nav-divider"></li>
-            <li><a href="lcs/Radharani Dalal.pdf">Radharani Dalal</a></li><li class="nav-divider"></li>
-            <li><a href="lcs/Rasika Shanbhag.pdf">Rasika Shanbhag</a></li><li class="nav-divider"></li>
-            <li><a href="lcs/Shyama Singh.pdf">Shyama Singh</a></li><li class="nav-divider"></li>
-            <li><a href="lcs/Tulsipriya Muley.pdf">Tulsipriya Muley</a></li><li class="nav-divider"></li>
-            <li><a href="lcs/Uddhav Gokarn.pdf">Uddhav Gokarn</a></li><li class="nav-divider"></li>
-            <li><a href="lcs/Vrindavaneshwari.pdf">Vrindavaneshwari</a></li><li class="nav-divider"></li>
-          </ul>
-        </li>
-        <li><a href="safety-and-security.html">Safety &amp; Security</a></li>
-        <li><a href="contact.html">Contact us</a></li>
-      </ul>
+    
     </div>
-
-      <!--/.nav-collapse -->
-    </div>
-  </div>        </div>
-          </div>
+    <!--/.nav-collapse -->
+  </div>
+</div>       
+</div>
+</div><br>
+      </div>
+      <div>
           <div> <b><marquee><i>*100% CBSE Boards Result</i> - Our toppers with 97 and  100/100 marks in Sanskrit,social studies and Science</marquee></b></div><br>
         </div>
        <br>
         <div>
           <div style="width:94%;margin-top:0px;margin: auto;position: relative;left: 1.7%">
-            <div id="Carousel" data-ride="carousel" data-ride="carousel" class="carousel slide carousel-fade" data-interval="4500">
+            <div id="Carousel" data-ride="carousel" data-ride="carousel" class="carousel slide" data-interval="4500">
           <ol class="carousel-indicators">
               <li data-target="Carousel" data-slide-to="0" class="active"></li>
               <li data-target="Carousel" data-slide-to="1"></li>
@@ -392,31 +419,20 @@ Simran Mehta, Aditya Nambiar, Nandan Maurya
         <a id="bl3" href="section/sec.html"><img id="l3" onmouseover="k3()" onmouseout="k31()" src="images/sec.jpeg" width="98px" height="69px"></a>
       </div>
 
-      <!-- -->
-      <div class="col-md-12 encloseAnchor" style="position: relative;top: -10px;display: flex; justify-content: center; align-items: center;">
-        <a href="cbse results-1.pdf">
-        <div class="tagLine">
-              Our CBSE Results in 2019
-        </div>
-        </a>
+      <div class="div-decorator">
+        <div class="div-content">
+          <a href="cbse results-1.pdf"><button type="button" class="btn btn-success btn-circle btn-xl"> Our CBSE Results in 2019<i class="fa fa-fw fa-envelope faa-horizontal animated"></i></button></a>
         </div>
       </div>
+
       <!-- -->
       <div> <b><marquee><i>*100% CBSE Boards Result</i> - Our toppers with 97 and  100/100 marks in Sanskrit,social studies and Science</marquee></b></div><br></div> </div>
       <div class="row">
         <div class="col-md-12">&nbsp;</div>
 
-      <div class="col-sm-12" id="footer">
-        <div class="ssc" style="background-color: #00963F">
-          <p class="pull-left" style="background-color: #00963F">
-          <!--<a class="alert" href="../faq.html">FAQ's</a>-->&nbsp;&nbsp;&nbsp;
-          <a class="alert" href="news.html">News and events</a>
-          <a class="alert" href="planner.html">Planner</a>
-          <a class="alert" href="house.html">The House System</a>
-          <a class="alert" href="seva.html">Seva</a>
-          <a class="alert" href="gardenbuzz.html">Garden Buzz</a> </p>
-          <a href="https://www.facebook.com/public/?query=Gopals%20Garden"><img height="30" src="images/logo.png"></a>
-          </div><br><br><br><div id="cprt">Copyright&copy; <span id="date"></span> Gopal's Garden High School (All rights reserved)</div></div></div>
+        <div class="container-fluid" style="background-color:#90EE90;text-align: center">
+          <div id="cprt">Copyright&copy; <span id="date"></span> Gopal's Garden High School (All rights reserved)</div>
+        </div>
 <script>var d = new Date();
     var n = d.getFullYear();
     document.getElementById("date").innerHTML = n;
